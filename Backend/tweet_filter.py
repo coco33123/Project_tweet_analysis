@@ -9,7 +9,16 @@ def filter_tweets(tweets_data):
     filtered_tweets = []
 
     for entry in tweets_data:
-        user, tweet, date = entry["user"], entry["tweet"].strip().lower(), entry["date"]
+        user = entry["user"]
+        tweet = entry["tweet"].strip().lower()
+        raw_date = entry["date"]
+
+        # Convertir la date ISO string → datetime
+        try:
+            tweet_date = datetime.datetime.fromisoformat(raw_date)
+        except ValueError:
+            ignored_tweets.append(f"⚠️ {user} → {tweet} (Date invalide)")
+            continue
 
         # Vérifier blacklist
         if user in BLACKLIST_USERS:
@@ -21,11 +30,11 @@ def filter_tweets(tweets_data):
             ignored_tweets.append(f"🚫 {user} → {tweet} (Pas pertinent)")
             continue  
 
-        # Vérifier date récente
-        if date < DATE_LIMIT:
+        # Vérifier date récente (< 30 jours)
+        if tweet_date < DATE_LIMIT:
             ignored_tweets.append(f"📅 {user} → {tweet} (Trop ancien)")
-            continue  
+            continue 
 
-        filtered_tweets.append({"user": user, "tweet": tweet, "date": date})
+        filtered_tweets.append({"user": user, "tweet": tweet, "date": raw_date})
 
     return ignored_tweets, filtered_tweets
