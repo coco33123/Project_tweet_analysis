@@ -1,77 +1,62 @@
 [
     {
         "user": "Bot123",
-        "tweet": "Achetez mon produit miracle maintenant!",
-        "date": "2025-03-19T12:00:00"
+        "tweet": "Achetez mon produit miracle maintenant!"
     },
     {
         "user": "FakeNewsUser",
-        "tweet": "Info exclusive sur la politique...",
-        "date": "2025-03-19T12:00:00"
+        "tweet": "Info exclusive sur la politique..."
     },
     {
         "user": "UserA",
-        "tweet": "J'adore ce produit marketing, il est génial!",
-        "date": "2025-03-19T12:00:00"
+        "tweet": "J'adore ce produit marketing, il est génial!"
     },
     {
         "user": "UserB",
-        "tweet": "Cette publicité est vraiment mal faite...",
-        "date": "2025-03-19T12:00:00"
+        "tweet": "Cette publicité est vraiment mal faite..."
     },
     {
         "user": "SpamAccount",
-        "tweet": "Gagnez 1000€ facilement!",
-        "date": "2025-03-19T12:00:00"
+        "tweet": "Gagnez 1000€ facilement!"
     },
     {
         "user": "UserC",
-        "tweet": "Je ne sais pas quoi penser de cette promo.",
-        "date": "2025-03-19T12:00:00"
+        "tweet": "Je ne sais pas quoi penser de cette promo."
     },
     {
         "user": "UserD",
-        "tweet": "Super service client, je recommande!",
-        "date": "2025-03-19T12:00:00"
+        "tweet": "Super service client, je recommande!"
     },
     {
         "user": "UserE",
-        "tweet": "Produit défectueux, très déçu...",
-        "date": "2025-03-19T12:00:00"
+        "tweet": "Produit défectueux, très déçu..."
     },
     {
         "user": "UserF",
-        "tweet": "C'est un produit correct, sans plus.",
-        "date": "2025-03-19T12:00:00"
+        "tweet": "C'est un produit correct, sans plus."
     },
     {
         "user": "UserG",
-        "tweet": "Je vais au cinéma ce soir, hâte!",
-        "date": "2025-03-19T12:00:00"
+        "tweet": "Je vais au cinéma ce soir, hâte!"
     },
     {
         "user": "UserH",
-        "tweet": "Meilleur service après-vente!",
-        "date": "2025-03-19T12:00:00"
+        "tweet": "Meilleur service après-vente!"
     },
     {
         "user": "UserI",
-        "tweet": "Marketing agressif, je n'aime pas...",
-        "date": "2025-03-19T12:00:00"
+        "tweet": "Marketing agressif, je n'aime pas..."
     },
     {
         "user": "UserJ",
-        "tweet": "Livraison rapide et efficace!",
-        "date": "2025-03-19T12:00:00"
+        "tweet": "Livraison rapide et efficace!"
     },
     {
         "user": "UserK",
-        "tweet": "Un produit révolutionnaire!",
-        "date": "2025-02-08T12:00:00"
+        "tweet": "Un produit révolutionnaire!"
     },
     {
         "user": "UserL",
-        "tweet": "Publicité mensongère, honteux!",
-        "date": "2025-02-03T12:00:00"
+        "tweet": "Publicité mensongère, honteux!"
     }
 ]
