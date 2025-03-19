@@ -1,0 +1,17 @@
+[
+    {
+        "user": "UserA",
+        "tweet": "J'adore ce produit, il est génial!",
+        "sentiment": "positif"
+    },
+    {
+        "user": "UserB",
+        "tweet": "Ce service client est très mauvais...",
+        "sentiment": "négatif"
+    },
+    {
+        "user": "UserC",
+        "tweet": "Produit correct mais sans plus.",
+        "sentiment": "neutre"
+    }
+]

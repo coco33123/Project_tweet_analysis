@@ -1,0 +1,8 @@
+{
+    "users": {
+      "user1": ["positif"],
+      "user2": ["négatif", "neutre"],
+      "user3": ["positif", "neutre", "négatif"]
+    }
+  }
+  
