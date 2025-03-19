@@ -1,5 +1,5 @@
 import React from "react";
-import TweetList from "./TweetList.js"; 
+import TweetList from "./components/TweetList"; 
 
 function App() {
   return (
